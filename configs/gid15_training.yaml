@@ -1,0 +1,11 @@
+patch_size: 512
+batch_size: 6
+num_classes: 16
+ignore_index: 0
+seed: 42
+warmup_epochs: 8
+finetune_epochs: 60
+patience: 12
+warmup_lr: 0.001
+finetune_lr: 0.00003
+weight_decay: 0.01

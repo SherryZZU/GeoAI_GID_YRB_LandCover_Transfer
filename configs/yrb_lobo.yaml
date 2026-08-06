@@ -1,0 +1,12 @@
+basins: [100, 89, 108, 60, 78, 59, 109, 75]
+patch_size: 224
+num_classes: 7
+ignore_index: 0
+cap_per_training_basin: 1500
+validation_fraction: 0.12
+max_epochs: 25
+patience: 5
+batch_size: 16
+learning_rate: 0.0001
+seed: 42
+bands: [BLUE, GREEN, RED, NIR_NARROW, SWIR_1, SWIR_2]

@@ -1,0 +1,26 @@
+name: geoai-gid-yrb
+channels: [conda-forge]
+dependencies:
+  - python=3.12
+  - numpy
+  - pandas
+  - pyyaml
+  - pillow
+  - matplotlib
+  - scipy
+  - statsmodels
+  - rasterio
+  - pyproj
+  - geopandas
+  - xarray
+  - netcdf4
+  - pip
+  - pip:
+      - torch
+      - torchvision
+      - segmentation-models-pytorch
+      - albumentations
+      - terratorch
+      - peft
+      - cdsapi
+      - earthengine-api

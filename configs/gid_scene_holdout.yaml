@@ -1,0 +1,19 @@
+architecture: smp.Unet
+encoder: resnet50
+input_channels: 3
+output_classes: 15
+target_encoding: classes 1..15 shifted to 0..14
+ignore_index: 255
+patch_size: 512
+batch_size: 6
+epochs: 40
+learning_rate: 0.0003
+validation_fraction: 0.12
+steps_per_epoch: 400
+seed: 42
+held_out_scenes:
+  - "0000575925"
+  - "0001064454"
+  - "0001118839"
+  - "0001395956"
+  - "0001680858"

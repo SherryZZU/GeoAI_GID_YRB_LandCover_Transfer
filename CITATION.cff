@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: GeoAI GID-to-Yellow River Basin Real Workflow
+version: "2.1.0"
+message: Please cite the associated manuscript and this software release.
+authors:
+  - family-names: Khan
+    given-names: Sheheryar
+license: MIT
+type: software

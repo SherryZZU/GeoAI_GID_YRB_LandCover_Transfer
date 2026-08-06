@@ -1,0 +1,6 @@
+native_resolution_m: 4
+simulated_resolution_m: 30
+downsample_factor_used_in_notebook: 8
+source_classes_with_nodata: 16
+functional_classes_with_nodata: 7
+point_3_definition: remap_point_2_gid_prediction_to_6_classes

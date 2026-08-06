@@ -1,0 +1,8 @@
+gid15_base: /path/to/gid15-yrb
+yrb_raster_dir: /path/to/TGRS_LULC
+yrb_patch_dir: /path/to/yrb-patches
+gid_checkpoint: /path/to/Phase1_LULC/checkpoints/best_model.pth
+lobo_part1_dir: /path/to/lobo-results-part1/lobo_results
+lobo_part2_dir: /path/to/lobo-results-part2/lobo_results
+validation_csv: /path/to/YRB_validation_points_clean_land_type.csv
+output_dir: outputs

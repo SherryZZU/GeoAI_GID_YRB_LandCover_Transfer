@@ -1,0 +1,17 @@
+cells:
+  P1: native_resolution_15_class
+  P2: simulated_coarse_resolution_15_class
+  P3: simulated_coarse_resolution_6_functional_class
+  P4: native_resolution_6_functional_class
+downscale_factor: 8
+patch_size: 512
+scenes:
+  - "0000575925"
+  - "0001064454"
+  - "0001118839"
+  - "0001395956"
+  - "0001680858"
+outputs:
+  - gid_2x2_per_scene.csv
+  - gid_2x2_summary.json
+  - gid_2x2_anova.txt

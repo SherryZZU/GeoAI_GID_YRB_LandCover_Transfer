@@ -1,0 +1,5 @@
+window: 224
+stride: 160
+padding: 32
+minimum_nonzero_fraction: 0.02
+compute_resnet_entropy: true
