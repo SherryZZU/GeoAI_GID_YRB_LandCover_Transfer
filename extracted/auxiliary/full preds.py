@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Exact code-cell extraction from TGRS.ipynb.
+"""Exact code-cell extraction from full preds.ipynb.
 Notebook magics/install commands are preserved as comments.
 Secrets are redacted. This historical extraction is not the refactored CLI.
 """
